@@ -75,7 +75,18 @@ namespace FilmesWebApi.Repositories
         /// <returns>Retorna uma lista de filmes</returns>
         public List<Filmes> Listar()
         {
-            return ctx.Filmes.ToList();
+            return ctx.Filmes
+                .Select(f => new Filmes()
+                {
+                    IdFilme = f.IdFilme,
+                    IdGenero = f.IdGenero,
+                    Titulo = f.Titulo,
+                    IdGeneroNavigation = new Generos()
+                    {
+                        IdGenero = f.IdGeneroNavigation.IdGenero,
+                        Nome = f.IdGeneroNavigation.Nome
+                    }
+                }).ToList();
         }
     }
 }

@@ -30,3 +30,6 @@ CREATE TABLE Usuarios(
 	,Permissao	VARCHAR (255) NOT NULL
 );
 GO
+
+
+SELECT *FROM Generos
