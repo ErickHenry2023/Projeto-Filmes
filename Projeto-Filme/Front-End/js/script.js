@@ -32,7 +32,7 @@ function renderFilmes() {
 
         })
         .catch((error) => {
-            console.log('ops' + error)
+            console.log('errooouuuuu' + error)
         })
 
 
