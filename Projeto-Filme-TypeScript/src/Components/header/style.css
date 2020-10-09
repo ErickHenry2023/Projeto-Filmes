@@ -1,0 +1,38 @@
+.header{
+    background-color: #9BD2DE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: auto; 
+}
+
+.align{
+    width: 1024px;
+    margin: auto;
+}
+
+.menu{
+    list-style: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .link{
+    color: #482142;
+    text-decoration: none;
+}
+
+.menu .link:hover{
+    color: #A020F0;	
+    padding-bottom: 5px;
+}
+
+.align h3{
+    padding-top: 25px;
+}

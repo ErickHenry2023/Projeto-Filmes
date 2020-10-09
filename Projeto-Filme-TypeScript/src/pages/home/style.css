@@ -1,0 +1,65 @@
+/* .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ */
+
+ #texto {
+    text-align: center;
+    width: 1024px;
+}
+
+#texto >h1{
+    padding-top: 25px;
+}
+
+#texto>h2{
+    padding-top: 12.5px;
+}
+#texto>p{
+    padding-top: 12.5px;
+}
+
+.Modos #Filme img {
+    height: 100px;
+    width: 100px;
+}
+
+.Modos #Categoria img {
+    height: 100px;
+    width: 100px;
+}
+
+.Modos #Categoria {
+    justify-content: center;
+    align-content: flex-start;
+    width: 400px;
+    padding-top: 5px;
+}
+
+.Modos #Filme {
+    justify-content: center;
+    align-content: flex-end;
+    width: 400px;
+}
+
+.Modos {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+h1{
+    padding: 10px;
+}
+
+.Modos #Categoria p{
+    padding-top: inherit;
+
+}
+
+.Modos #Filme p{
+    padding-top: inherit;
+}
